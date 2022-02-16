@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+body {
+  background-image: url(./assets/pattern.png);
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  min-width: 100vw;
+  height: 4em;
+  background-color: rgb(198, 172, 223);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__item {
+  margin: 0 1%;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.nav__item:hover {
+  color: blueviolet;
+}
+
+.aside__logoNLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 650px;
+}
+
+.aside__logoNLinks > img {
+  width: 80%;
+}
+
+.aside__logoNLinks > span {
+  font-weight: 900;
+}
+
+.aside__div__links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside__link {
+  display: flex;
+  background-color: rgb(228, 61, 0);
+  width: 200px;
+  height: 50px;
+  margin-bottom: 2px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside__link > span {
+  color: white;
+}
